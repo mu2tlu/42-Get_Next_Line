@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtumgor <mtumgor@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mumutlu <mumutlu@student.42kocaeli.com.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/10 14:57:14 by mtumgor           #+#    #+#             */
-/*   Updated: 2023/02/15 15:43:27 by mtumgor          ###   ########.fr       */
+/*   Created: 2023/02/21 13:01:59 by mumutlu           #+#    #+#             */
+/*   Updated: 2023/02/21 13:02:01 by mumutlu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@
 # include <fcntl.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 4096 
-# endif 
+#  define BUFFER_SIZE 4096
+# endif
 
 char	*get_next_line(int fd);
 char	*ft_strjoin(char const *s1, char const *s2);

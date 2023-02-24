@@ -11,8 +11,8 @@ int main()
 	{
 		line = get_next_line(fd);
 		if(line == NULL)
-			return 0;
+			return (0);
 		printf("%s", line);
-
 	}
+	return (0);
 }

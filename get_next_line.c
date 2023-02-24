@@ -6,7 +6,7 @@
 /*   By: mumutlu <mumutlu@student.42kocaeli.com.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/21 13:01:54 by mumutlu           #+#    #+#             */
-/*   Updated: 2023/02/21 13:01:56 by mumutlu          ###   ########.fr       */
+/*   Updated: 2023/02/24 17:47:18 by mumutlu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ char	*get_line(char *buffer)
 		i++;
 	}
 	if (buffer[i] && buffer[i] == '\n')
-		line[i++] = '\n';
+		line[i] = '\n';
 	return (line);
 }
 

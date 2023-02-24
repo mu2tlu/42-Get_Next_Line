@@ -2,13 +2,17 @@
 
 int main()
 {
-    int fd;
-    int i = 0;
-    fd = open("4mu2.txt", O_RDONLY);
-    while(i < 10)
-    {
-        printf("%s",get_next_line(fd));
-		i++;
-    }
-	return 0;
+	char *line;
+	int fd, i;
+
+	fd = open("4mu2.txt", O_RDONLY);
+	i = 0;
+	while (i++ < 155)
+	{
+		line = get_next_line(fd);
+		if(line == NULL)
+			return 0;
+		printf("%s", line);
+
+	}
 }

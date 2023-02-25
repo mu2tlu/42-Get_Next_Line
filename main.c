@@ -13,7 +13,7 @@ int main()
 		line = get_next_line(fd);
 		if(line == NULL)
 			return (0);
-		write(, line, ft_strlen(line));
+		write(resfd, line, ft_strlen(line));
 	}
 	return (0);
 }

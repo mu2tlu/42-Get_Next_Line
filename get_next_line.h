@@ -19,7 +19,7 @@
 # include <fcntl.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 4096
+#  define BUFFER_SIZE 4096 //"gcc -D BUFFER_SIZE=3 get_next_line.c get_next_line_utils.c" burada yeni değer girildiği için bu değeri iptal ediyor.
 # endif
 
 char	*get_next_line(int fd);
